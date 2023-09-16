@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <section class="game">
+        <h1>Rock - Scissors - Paper game</h1>
+        
+        <!-- Choose weapon -->
+        <h2 class="round">Choose your weapon</h2>
+        <div class="options">
+            <button class="rock" >Rock</button>
+            <button class="paper">Paper</button>
+            <button class="scissors">Scissors</button>
+        </div>
 
+    <!-- Score of players -->
+        <div class="score">
+            <div class="playerScore">
+                <h2>Player</h2>
+                <p class="playerCount count">0</p>
+            </div>
+            <div class="computerScore ">
+                <h2>Computer</h2>
+                <p class="computerCount count">0</p>
+            </div>
+        </div>
+
+    <!-- Round left before game end -->
+        <div class="roundLeft">Round left: 10</div> 
+
+        <!-- Result of game -->
+        <div class="result"></div>      
+
+        <!-- Reload the game -->
+        <button class="reload"></button>
+    </section>
     <script src="index.js"></script>
 </body>
 </html>
